@@ -1,0 +1,26 @@
+name: container_project
+description: A new Flutter project.
+
+environment:
+  sdk: ^3.9.2
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  intl: ^0.20.2
+
+  area:
+    git:
+      url: https://github.com/oyuko123/mobile_lab10_package.git
+      ref: master
+  #area:
+    #path: packages/area
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
