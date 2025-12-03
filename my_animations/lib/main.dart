@@ -16,8 +16,8 @@ class MyApp extends StatelessWidget {
       title: 'Animations Demo',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: const 
-      ShapeAnimation()
-      //MyAnimation(),
+      //ShapeAnimation()
+      MyAnimation(),
     );
   }
 }

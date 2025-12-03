@@ -26,10 +26,18 @@ class _MyAnimationState extends State<MyAnimation> {
         title: const Text('Animated Container'),
         actions: [
           IconButton(
-            icon: const Icon(Icons.run_circle),
+            icon: const Icon(Icons.run_circle, color: Colors.red),
             onPressed: () {
               setState(() {
                 iteration = (iteration + 1) % colors.length;
+              });
+            },
+          ),
+          IconButton(
+            icon: const Icon(Icons.run_circle, color: Colors.blue),
+            onPressed: () {
+              setState(() {
+                iteration = (iteration - 1) % colors.length;
               });
             },
           ),
